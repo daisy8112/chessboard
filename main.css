@@ -1,0 +1,53 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    width:1180px;
+    margin:0 auto;
+    padding:0 20px;
+}
+.chessboard{
+    width:446px;
+    padding:30px 20px;
+    background-color:#e5bf97;
+}
+.chess-box{
+    list-style: none; 
+    border:3px solid black;
+    
+}
+
+.chess-row{
+    width:400px;
+    height:50px;
+} 
+.chess-list{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap; 
+ 
+    
+}
+.chess-list__item-odd:nth-child(odd){
+    width:50px;
+    height:50px;
+ 
+ 
+}
+.chess-list__item-odd:nth-child(even){
+    width:50px;
+    height:50px;
+    background-color: #964B00;
+}
+.chess-list__item-even:nth-child(odd){
+    width:50px;
+    height:50px;
+    background-color: #964B00;
+}  
+.chess-list__item-even:nth-child(even){
+    width:50px;
+    height:50px;
+   
+}
